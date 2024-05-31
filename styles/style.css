@@ -40,3 +40,19 @@ header nav ul li {
 .mainImgText p{
     margin-bottom: 20px;
 }
+.sectionParag{
+    background-color: rgb(44 44 44);
+    width: 100%;
+    height: 464.78px;
+    margin: 0 auto;
+}
+.sectionParag p{
+    width: 958.25px;
+    height: 264.98px;
+    font-size: 28px;
+    line-height: 1.6em;
+    margin: 0 auto;
+    color: rgb(244, 244, 244);
+    letter-spacing: 0em;
+
+}
