@@ -9,6 +9,8 @@ header {
   align-items: center;
   padding: 10px 20px;
   box-sizing: border-box;
+  position: fixed;
+  z-index: 2;
 }
 
 header div {
@@ -29,6 +31,10 @@ header nav ul li {
 }
 
 /* Section styles */
+.firstSection{
+  padding-top: 77px;
+}
+
 .mainImgDiv {
   position: relative;
   max-width: 1903px;
@@ -85,9 +91,10 @@ header nav ul li {
   max-width: 1903px;
   width: 100%;
   background-color: #161616;
+  /* height: auto; */
   height: 1422px;
   padding-top: 40px;
-  padding-left: 100px;
+  padding-left: 120px;
  
 }
 .container h2{
@@ -95,14 +102,19 @@ header nav ul li {
   color: #DBDBDB;
 }
 .wraper{
-  padding-top: 80px;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
   
 }
-.ios{
+.courseContainer{
   width: 300px;
   height: 393px;
   background-color: #161616;
-  border: 1px solid white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.ios img{
   border-radius: 5px;
 }
 .titleContainer{
@@ -131,3 +143,23 @@ header nav ul li {
   color: #00AEF3;
   font-size: 20px;
 }
+.fa-arrow-right{
+  color: #00AEF3;
+  width: 20px;
+}
+/* react box */
+
+.middle{
+  margin: 0 40px;
+}
+
+.upDown{
+  margin: 25px 0 ;
+}
+/* python */
+
+/* cybersecurity */
+.center{
+  margin: 25px 40px;
+}
+
