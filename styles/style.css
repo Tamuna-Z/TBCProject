@@ -79,3 +79,55 @@ header nav ul li {
   margin: 40px 127px;
   width: fit-content;
 }
+
+/* section learning courses */
+.container{
+  max-width: 1903px;
+  width: 100%;
+  background-color: #161616;
+  height: 1422px;
+  padding-top: 40px;
+  padding-left: 100px;
+ 
+}
+.container h2{
+  font-size: 24px;
+  color: #DBDBDB;
+}
+.wraper{
+  padding-top: 80px;
+  
+}
+.ios{
+  width: 300px;
+  height: 393px;
+  background-color: #161616;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.titleContainer{
+  padding: 25px 15px;
+}
+.titleContainer h3{
+  color: #F4F4F4;
+  width: 151.45px;
+  height: 26px;
+  font-size: 20px;
+  text-align: start;
+  text-size-adjust: 100%;
+  margin: 20px 0;
+}
+.titleContainer h4{
+  color: #F4F4F4;
+  width: 266px;
+  height: 22.39px;
+  margin-bottom: 70px;
+
+
+}
+.detail span{
+  width: 156.61px;
+  height: 25.59px;
+  color: #00AEF3;
+  font-size: 20px;
+}
