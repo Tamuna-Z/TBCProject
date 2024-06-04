@@ -5,14 +5,11 @@ header {
   width: 100%;
   box-shadow: 0 4px 2px -2px gray;
   display: flex;
+  justify-content: space-around;  /* Change this line */
   align-items: center;
   padding: 10px 20px;
   position: fixed;
   z-index: 2;
-}
-
-header div {
-  margin-right: auto;
 }
 
 header nav ul {
@@ -102,17 +99,25 @@ header nav ul li {
   height: auto;
   /* height: 1422px; */
   padding-top: 40px;
-  padding-left: 120px;
+ 
+  /* padding-left: 120px; */
  
 }
 .container h2 {
   font-size: 24px;
   color: #dbdbdb;
+  margin-left: 120px;
 }
 .wraper {
   padding-top: 70px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+  padding-bottom: 60px;
+  
 }
 .courseContainer {
   width: 300px;
@@ -194,6 +199,7 @@ header nav ul li {
   position: relative;
   background-color: #2b2b2b;
 }
+
 
 #arrow-left {
   position: absolute;
