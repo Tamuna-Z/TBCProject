@@ -3,38 +3,32 @@
 // let data = [
 //     {
 //         id: 1,
-//         imgAddress:'images/usaid.webp',
-
+//         imageUrl: 'images/Capture1.PNG',
 //     },
 //     {
 //         id: 2,
-//         imgAddress:'images/space.webp',
-
+//         imageUrl: 'images/Capture2.PNG',
 //     },
 //     {
 //         id: 3,
-//         imgAddress:'images/tineti.webp',
-
+//         imageUrl: 'images/Capture3.PNG',
 //     },
-
-    
 // ];
 
-let data=[
+let data = [
     {
         id: 1,
-        imageUrl: 'https://imgur.com/VFLEhMj',
+        imageUrl: 'images/Capture1.PNG',
     },
     {
         id: 2,
-        imageUrl: 'https://thumbs.dreamstime.com/z/traditional-georgian-sweets-called-churchkhela-churchela-candle-shaped-grape-juice-candy-nuts-inside-traditional-georgian-161801425.jpg',
-        url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0lwHzvnxdwvb7S9D4wHAlqDBJoxRRQZ5re5Et0xmLnExan2nhtXTn9CUxJzF9Wp_RtG0&usqp=CAU'
+        imageUrl: 'images/Capture2.PNG',
     },
-      
+    {
+        id: 3,
+        imageUrl: 'images/Capture3.PNG',
+    },
 ];
-
-
-
 
 let arrowLeft = document.getElementById ('arrow-left');
 let arrowRight = document.getElementById ('arrow-right');
@@ -43,28 +37,15 @@ let dotsList = document.getElementsByClassName ('dot');
 
 let sliderIndex = 0;
 
-function createATag (item) {
-    let aTag = document.createElement('a');
-    aTag.setAttribute('href', item.url);
-    aTag.classList.add('slider-a');
-
-    return aTag;
-}
 
 function createImgTag(item) {
     sliderContainer.style.backgroundImage = 'url('+ item.imageUrl +')';
     sliderContainer.style.backgroundRepeat = "no-repeat";
     sliderContainer.style.backgroundSize = "cover";
+    sliderContainer.style.width = '850px';
+    sliderContainer.style.height = '90px';
 }
 
-
-function createH2Tag (item) {
-    let h2Tag = document.createElement('a');
-    h2Tag.setAttribute.href = item.url;
-    h2Tag.classList.add('slider-title');
-    h2Tag.append(item.title);
-    return h2Tag;
-}
 
 function createDots() {
     let dots = document.createElement('div');
@@ -88,8 +69,6 @@ function createDots() {
 function setSlider() {
     sliderContainer.innerText = '';
     createImgTag(data[sliderIndex]);
-    let sliderItem = createATag (data[sliderIndex]);
-    let title = createH2Tag (data[sliderIndex]);
     let dots = createDots();
     sliderItem.appendChild(title);
     sliderContainer.appendChild(sliderItem);
