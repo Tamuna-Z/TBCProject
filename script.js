@@ -42,7 +42,7 @@ function createImgTag(item) {
     sliderContainer.style.backgroundImage = 'url('+ item.imageUrl +')';
     sliderContainer.style.backgroundRepeat = "no-repeat";
     sliderContainer.style.backgroundSize = "cover";
-    sliderContainer.style.width = '850px';
+    sliderContainer.style.width = '990px';
     sliderContainer.style.height = '90px';
 }
 
@@ -105,7 +105,7 @@ document.addEventListener('keydown', function(event) {
         arrowRightClick();
     }
 })
-//3.
+
 setInterval( () => {
     arrowRightClick ();
 }, 4000);
