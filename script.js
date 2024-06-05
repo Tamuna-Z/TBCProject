@@ -70,8 +70,6 @@ function setSlider() {
     sliderContainer.innerText = '';
     createImgTag(data[sliderIndex]);
     let dots = createDots();
-    sliderItem.appendChild(title);
-    sliderContainer.appendChild(sliderItem);
     sliderContainer.appendChild(dots);
     currentDotActive();
     
