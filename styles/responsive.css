@@ -9,6 +9,12 @@
         margin: 10px;
     }
 
+    .accordion-container {
+        max-width: 770px;
+        width: 100%;
+        margin: 0 auto;
+      }
+
 }
   
   /* Tablet Styles */
@@ -52,13 +58,13 @@
         margin: 0 auto; 
       }
 
-      /* slider */
-      /* .slider {
-        width: 50%;
-        
-      } */
-    
+      .accordion-container {
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto;
+      }
 
+      /* slider */
     .wraper{
         justify-content: space-around;
     }
@@ -67,8 +73,6 @@
         flex: 1 1 45%;
         margin: 10px;
     }
-  
-  
     
   }
   
@@ -81,7 +85,6 @@
     font-size: 24px;
     }
     .sectionParag{
-        /* height: auto; */
         padding-top: 20px;
         font-size: 20px;
         line-height: 0.6em;
@@ -105,8 +108,14 @@
         height: auto;
       }
     
+      .footerContainer{
+        flex-direction: column;
+        height: 500px;
+      }
+      .accordion-container {
+        max-width: 370px;
+        width: 100%;
+        margin: 0 auto;
+      }
    
-   
-   
-   
-  }
+ }
