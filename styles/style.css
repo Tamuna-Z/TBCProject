@@ -3,17 +3,24 @@ header {
   background-color: #1a1e1f;
   max-width: 1903px;
   width: 100%;
-  box-shadow: 0 4px 2px -2px gray;
-  display: flex;
-  justify-content: space-around;  /* Change this line */
   align-items: center;
   padding: 10px 20px;
   position: fixed;
   z-index: 2;
 }
-.burgerBar{
+.navbar-wraper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.color{
+  color: #00aef3;
+}
+.burgerBar {
   display: none;
   color: white;
+  position: absolute;
+  top: 35px;
 }
 
 header nav ul {
@@ -38,7 +45,7 @@ header nav ul li {
   position: relative;
   max-width: 1903px;
   width: 100%;
-  height: 352px; /* Fixed height */
+  height: 352px; 
   overflow: hidden;
 }
 
@@ -55,7 +62,7 @@ header nav ul li {
   color: white;
   font-size: 34px;
 }
-.bold{
+.bold {
   font-size: 42px;
   font-weight: 100px;
   line-height: 1.6em;
@@ -65,21 +72,18 @@ header nav ul li {
 .mainImgText p {
   margin-bottom: 20px;
   pointer-events: auto;
-  /* text-size-adjust: 100%; */
 }
 
 .sectionParag {
   background-color: rgb(44, 44, 44);
   width: 100%;
   height: 464.78px;
-  margin: 0 auto;
   padding-top: 60px;
 }
 
 .sectionText {
   max-width: 958.25px;
   width: 100%;
-  /* height: 264.98px; */
   font-size: 28px;
   line-height: 1.6em;
   margin: 0 auto;
@@ -93,6 +97,8 @@ header nav ul li {
   color: #00aef3;
   padding: 40px 127px;
   width: fit-content;
+  max-width: 858.25px;
+  width: 100%;
 }
 
 /* section learning courses */
@@ -101,10 +107,8 @@ header nav ul li {
   width: 100%;
   background-color: #161616;
   height: auto;
-  /* height: 1422px; */
   padding-top: 40px;
- 
-  /* padding-left: 120px; */
+
  
 }
 .container h2 {
@@ -116,11 +120,10 @@ header nav ul li {
   padding-top: 70px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 auto;
-  max-width: 980px;
   width: 100%;
   padding-bottom: 60px;
-  
 }
 .courseContainer {
   max-width: 300px;
@@ -129,9 +132,6 @@ header nav ul li {
   background-color: #161616;
   border: 1px solid grey;
   border-radius: 5px;
-  margin: 10px;
-  
-
 }
 .ios img {
   border-radius: 5px;
@@ -173,7 +173,6 @@ header nav ul li {
 .upDown {
   margin: 25px 0;
 }
-/* python */
 
 /* cybersecurity */
 .center {
@@ -200,12 +199,11 @@ header nav ul li {
 /* slider */
 
 .slider-wrapper {
-  
   height: 363.39px;
   position: relative;
   background-color: #2b2b2b;
 }
-.slider-wrapper h3{
+.slider-wrapper h3 {
   color: #dbdbdb;
   font-size: 28px;
   margin-left: 120px;
@@ -266,7 +264,7 @@ header nav ul li {
   position: absolute;
   z-index: 100;
   left: 50%;
-  top:100%;
+  top: 100%;
   transform: translateX(-50%);
   bottom: 5%;
   cursor: pointer;
@@ -284,7 +282,6 @@ header nav ul li {
 .accordion {
   max-width: 1663px;
   width: 100%;
-
 }
 
 .wraper-body {
@@ -294,11 +291,10 @@ header nav ul li {
   position: relative;
   max-width: 870px;
   width: 100%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   margin-bottom: 15px;
-
 }
 
 .fontColor {
@@ -345,49 +341,46 @@ header nav ul li {
   font-size: 25px;
 }
 /* footer */
-.footerContainer{
+.footerContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 50px 0;
 }
-footer{
+footer {
   background-color: #2b2b2b;
   max-width: 1903px;
   width: 100%;
   height: 228.39px;
 }
-.fontStyle{
+.fontStyle {
   font-size: 17px;
   letter-spacing: normal;
   line-height: 1.6em;
   color: rgb(244, 244, 244);
   margin: 25px 0;
-  
 }
-.leftBox p::before{
-  content: ' \00A9';
-
+.leftBox p::before {
+  content: " \00A9";
 }
 
-.fa-brands{
+.fa-brands {
   font-size: 40px;
   /* background-color: #a8a4a4; */
   color: #a8a4a4;
 }
 
-button{
+button {
   width: 160px;
   height: 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   padding: 7px;
   background-color: #00aef3;
   border-radius: 10px;
   border: none;
   margin-top: 50px;
- 
 }
-.iconWraper{
+.iconWraper {
   padding-left: 75px;
 }

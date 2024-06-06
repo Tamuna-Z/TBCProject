@@ -1,19 +1,4 @@
-// slider data/photos
 
-// let data = [
-//     {
-//         id: 1,
-//         imageUrl: 'images/Capture1.PNG',
-//     },
-//     {
-//         id: 2,
-//         imageUrl: 'images/Capture2.PNG',
-//     },
-//     {
-//         id: 3,
-//         imageUrl: 'images/Capture3.PNG',
-//     },
-// ];
 
 let data = [
     {
@@ -29,6 +14,14 @@ let data = [
         imageUrl: 'images/Capture3.PNG',
     },
 ];
+
+// header burger bar
+
+let navigation = document.getElementById('navbarlinks');
+let toggleButton = document.getElementById('toggleBurger');
+toggleButton.addEventListener('click', function(){
+    navigation.classList.toggle('activeNav');
+})
 
 let arrowLeft = document.getElementById ('arrow-left');
 let arrowRight = document.getElementById ('arrow-right');

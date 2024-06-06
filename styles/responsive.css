@@ -13,6 +13,17 @@
   
   /* Tablet Styles */
   @media (max-width: 768px) {
+    .navbar-wraper{
+        flex-direction: column;
+    }
+    .navbar ul{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .navbar.activeNav{
+        display: block;
+    }
     nav{
         display: none;
     }
