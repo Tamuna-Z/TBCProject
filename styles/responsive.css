@@ -42,7 +42,22 @@
         padding-top: 30px;
         font-size: 22px;
         line-height: 0.6em;
+        margin: 0 auto;
     }
+    .sectionText {
+        max-width: 520px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.1em;
+        margin: 0 auto; 
+      }
+
+      /* slider */
+      /* .slider {
+        width: 50%;
+        
+      } */
+    
 
     .wraper{
         justify-content: space-around;
@@ -71,7 +86,14 @@
         font-size: 20px;
         line-height: 0.6em;
     }
-   
+    .sectionText {
+        max-width: 300px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.1em;
+        margin: 0 auto;
+        
+      }
 
        .courseContainer {
         flex: 1 1 90%;

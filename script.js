@@ -22,7 +22,7 @@ let toggleButton = document.getElementById('toggleBurger');
 toggleButton.addEventListener('click', function(){
     navigation.classList.toggle('activeNav');
 })
-
+// slider
 let arrowLeft = document.getElementById ('arrow-left');
 let arrowRight = document.getElementById ('arrow-right');
 let sliderContainer = document.getElementById ('slider');

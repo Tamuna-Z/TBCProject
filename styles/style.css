@@ -282,20 +282,24 @@ header nav ul li {
 .accordion {
   max-width: 1663px;
   width: 100%;
+  
 }
+
 
 .wraper-body {
   background-color: #161616;
 }
 .accordion-container {
-  position: relative;
   max-width: 870px;
   width: 100%;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  margin-bottom: 15px;
+  margin: 0 auto;
 }
+
+.large{
+  height: 500px;
+  overflow-y: auto; 
+}
+
 
 .fontColor {
   color: rgb(244, 244, 244);
@@ -319,11 +323,17 @@ header nav ul li {
 }
 .accordion h2 {
   font-size: 27px;
-  padding: 90px 130px 60px 130px;
+  margin: 0 auto;
+  padding-left: 170px;
+  padding-top: 80px;
+  /* padding: 90px 130px 60px 170px; */
+}
+.last{
+  padding-bottom: 80px;
 }
 .accordion-description {
   width: 100%;
-  font-size: 20px;
+  font-size: 16px;
   height: 0;
   overflow: hidden;
 }
@@ -332,8 +342,8 @@ header nav ul li {
   height: 0.5px;
   background-color: #a8a4a4;
 }
-.container.active .accordion-description {
-  height: 150px;
+.accordion-container.active .accordion-description {
+  height: 200px;
   padding: 10px;
 }
 .container.active .accordion-title::before {
